@@ -42,7 +42,7 @@ a {
 }
 
 .fruit {
-	font-size: 8rem;
+	font-size: 7rem;
 	cursor: pointer;
 }
 
@@ -105,6 +105,30 @@ a {
 	line-height: 2.2rem;
 
 }
+
+
+
+
+@media (max-width: 800px) {
+	
+	#home-sotto {
+		width: 74%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
