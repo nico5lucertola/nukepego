@@ -46,6 +46,10 @@ a {
 	cursor: pointer;
 }
 
+.fruit:hover {
+	text-shadow: 2px 2px 5px;
+}
+
 #home-sotto {
 	width: 44%;
 	text-align: center;
