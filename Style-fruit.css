@@ -42,8 +42,14 @@ a {
 }
 
 .fruit {
+	width: 90px;
+	cursor: pointer;
+}
+
+.frui2 {
 	font-size: 7rem;
 	cursor: pointer;
+	text-shadow: 2px 2px 5px;
 }
 
 .fruit:hover {

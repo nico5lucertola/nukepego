@@ -11,7 +11,7 @@
 
 	<div class="vertical-center">
 		<div id="home-sopra">
-			<a class="fruit" onclick="suonare()">🧃</a>
+			<img src="suki_1.png" class="fruit" onclick="suonare()">
 		</div>
 	
 		<div id="home-sotto">
@@ -23,6 +23,15 @@
 	
 
   <script>
+	  
+	  $( ".fruit" ).mouseenter(function() {
+		  $( ".fruit" ).attr("src", "suki_2.png");
+	  });
+	  
+	  $( ".fruit" ).mouseout(function() {
+		  $( ".fruit" ).attr("src", "suki_1.png");
+	  });
+	  
 	  var audio = new Audio('straw.mp3');
 	  audio.volume = 0.2;
 	  
