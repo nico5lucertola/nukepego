@@ -1,0 +1,19 @@
+@font-face {
+    font-family: HappyTimes_italic;
+    src: url(happy-times-italic.otf);
+}
+
+@font-face {
+    font-family: HappyTimes_regular;
+    src: url(happy-times.otf);
+}
+
+
+
+
+.testo-grande {
+	font-family: HappyTimes;
+	font-size: 4rem;
+	line-height: 4.3rem;
+	margin: 0;
+}

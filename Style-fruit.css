@@ -1,0 +1,117 @@
+a {
+	text-decoration: none;
+}
+
+
+@font-face {
+    font-family: HappyTimes_italic;
+    src: url(happy-times-italic.otf);
+}
+
+@font-face {
+    font-family: HappyTimes_regular;
+    src: url(happy-times.otf);
+}
+
+@font-face {
+    font-family: HappyTimes_bold;
+    src: url(happy-times-bold.otf);
+}
+
+@font-face {
+    font-family: Karla_regular;
+    src: url(Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: Karla_Bold;
+    src: url(Karla-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cormorant-light;
+    src: url(CormorantGaramond-Light.ttf);
+}
+
+
+
+#home-sopra {
+	width: 100%;
+	text-align: center;
+	
+}
+
+.fruit {
+	font-size: 8rem;
+	cursor: pointer;
+}
+
+#home-sotto {
+	width: 44%;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.testo-gigante {
+	font-family: HappyTimes_italic;
+	font-size: 2rem;
+	color: red;
+	line-height: 2.5rem;
+}
+
+.link-home {
+	color: black;
+	cursor: pointer;
+	font-size: 1.9rem;
+}
+
+.link-home:hover {
+	color: #09cc66;
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 44%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.career-left {
+	width: 34%;
+	padding: 4rem 0 4rem 4rem;
+}
+
+.career-title {
+	font-family: HappyTimes_italic;
+	font-size: 4rem;
+	line-height: 6rem;
+	margin: 0;
+}
+
+.stellina {
+	color: red;
+	font-size: 6rem;
+}
+
+.career-text {
+	margin: 2.5rem 0 0 0;
+	font-family: HappyTimes_regular;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
