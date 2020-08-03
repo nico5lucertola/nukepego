@@ -410,6 +410,11 @@ p {
 	.video {
 		height: 400px;
 	}
+	
+	body {
+		padding: 1rem;
+	}
+	
 }
 
 @media screen and (max-width: 650px) {
@@ -431,29 +436,30 @@ p {
 	}
 	
 	.testo-gigante {
-		font-size: 4rem;
-		line-height: 4.8rem;
+		font-size: 3rem;
+		line-height: 3.8rem;
 	}
+	
 	
 	.testo-serif-piccolo {
 		font-size: 1.4rem;
-		line-height: 1.8rem;
+		line-height: 1.6rem;
 	}
   
   
 	#head-sotto-dx {
-		width: 100%;
+		width: 90%;
 		padding: 2rem 0;
 	}
 
 	#head-sotto-dx-team {
-		width: 40%;
-		margin: 0 2rem 0 0;
+		width: 90%;
+		padding: 0 0 2rem 0;
 	}
 
 	#head-sotto-dx-year {
-		width: 40%;
-		margin: 0;
+		width: 100%;
+		padding: 0;
 	}
 	
 	#footer {
@@ -469,6 +475,11 @@ p {
 		width: 60%;
 		padding: 3rem 0rem;
 	}
+	
+	body {
+		padding: 0.5rem;
+	}
+	
 }
 
 
