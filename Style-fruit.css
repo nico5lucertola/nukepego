@@ -205,6 +205,10 @@ body {
 	.career-right {
 		width: 45%;
 	}
+	
+	#career-timeline {
+		width: 60%;
+	}
 }
 
 @media (max-width: 800px) {
@@ -233,6 +237,10 @@ body {
 		width: 100%;
 		height: auto;
 		padding: 2rem;
+	}
+	
+	#career-timeline {
+		width: 80%;
 	}
 }
 
