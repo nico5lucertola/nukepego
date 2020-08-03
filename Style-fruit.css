@@ -124,6 +124,12 @@ a {
 	#home-sotto {
 		width: 90%;
 	}
+	
+	.vertical-center {
+	  top: 54%;
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
 }
 
 
