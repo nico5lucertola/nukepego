@@ -119,9 +119,12 @@ a {
 
 .cloud-svg {
 	width: 40px;
-	fill: red;
 }
 
+
+.info-svg {
+	width: 60px;
+}
 
 
 
@@ -135,6 +138,16 @@ a {
 	  top: 54%;
 	  -ms-transform: translateY(-50%);
 	  transform: translateY(-50%);
+	}
+	
+	.career-title {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	
+	.career-left {
+		width: 90%;
+		padding: 1rem;
 	}
 }
 
