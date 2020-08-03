@@ -103,6 +103,7 @@ body {
 	width: 34%;
 	padding: 4rem 0 4rem 4rem;
 	display: inline-block;
+	box-sizing:         border-box;
 }
 
 .career-right {
@@ -117,13 +118,13 @@ body {
 
 #career-timeline {
 	width: 65%;
-	padding: 2rem 0 0 0;
+	padding: 3rem 0 0 0;
 }
 
 .career-title {
 	font-family: HappyTimes_italic;
 	font-size: 4rem;
-	line-height: 6rem;
+	line-height: 4.4rem;
 	margin: 0;
 }
 
@@ -195,6 +196,16 @@ body {
 }
 
 
+@media (max-width: 1400px) {
+	
+	.career-left {
+		width: 45%;
+	}
+
+	.career-right {
+		width: 45%;
+	}
+}
 
 @media (max-width: 800px) {
 	
@@ -214,8 +225,14 @@ body {
 	}
 	
 	.career-left {
-		width: 90%;
-		padding: 1rem;
+		width: 100%;
+		padding: 2rem;
+	}
+
+	.career-right {
+		width: 100%;
+		height: auto;
+		padding: 2rem;
 	}
 }
 
