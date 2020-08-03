@@ -2,6 +2,9 @@ a {
 	text-decoration: none;
 }
 
+body {
+	margin: 0;
+}
 
 @font-face {
     font-family: HappyTimes_italic;
@@ -21,6 +24,11 @@ a {
 @font-face {
     font-family: Karla_regular;
     src: url(Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: Karla_italic;
+    src: url(Karla-Italic.ttf);
 }
 
 @font-face {
@@ -94,6 +102,22 @@ a {
 .career-left {
 	width: 34%;
 	padding: 4rem 0 4rem 4rem;
+	display: inline-block;
+}
+
+.career-right {
+	padding: 4rem 0rem 0 2rem;
+	width: 34%;
+	display: inline-block;
+	float: right;
+	background-color: black;
+	height: 100vh;
+	box-sizing:         border-box;
+}
+
+#career-timeline {
+	width: 65%;
+	padding: 2rem 0 0 0;
 }
 
 .career-title {
@@ -103,17 +127,57 @@ a {
 	margin: 0;
 }
 
+.career-anno {
+	font-family: Karla_regular;
+	color: white;
+	font-size: 0.9rem;
+	margin: 0 0 0.5rem 0;
+}
+
+.career-lavoro {
+	font-family: Karla_regular;
+	color: white;
+	font-size: 1.3rem;
+	margin: 0 0 2rem 0;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.italic {
+	font-family: Karla-italic;
+}
+
+
 .stellina {
 	color: red;
 	font-size: 6rem;
 }
 
 .career-text {
-	margin: 2.5rem 0 0 0;
+	margin: 2.5rem 0 2rem 0;
 	font-family: HappyTimes_regular;
 	font-size: 1.8rem;
 	line-height: 2.2rem;
+}
 
+.career-link {
+	font-family: HappyTimes_regular;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	color: black;
+	margin: 0 1rem 0 0 ;
+}
+
+.career-link:hover {
+	color: red;
+}
+
+.career-mail {
+	color: red;
+	font-family: HappyTimes_italic;
+	cursor: pointer;
 }
 
 
@@ -124,6 +188,10 @@ a {
 
 .info-svg {
 	width: 60px;
+}
+
+.white {
+	color: white;
 }
 
 
