@@ -123,10 +123,22 @@ a {
 	
 	#home-sotto {
 		width: 74%;
+	}
 }
 
 
-
+@media (max-width: 600px) {
+	
+	#home-sotto {
+		width: 95%;
+	}
+	
+	.testo-gigante {
+		font-size: 1.6rem;
+	}
+	
+	
+}
 
 
 
