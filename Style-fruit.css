@@ -117,6 +117,12 @@ a {
 }
 
 
+.cloud-svg {
+	width: 40px;
+	fill: red;
+}
+
+
 
 
 @media (max-width: 800px) {
