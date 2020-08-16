@@ -46,7 +46,10 @@ body {
 #home-sopra {
 	width: 100%;
 	text-align: center;
-	
+}
+
+#about-dida {
+	display: none;
 }
 
 .fruit {
@@ -150,6 +153,10 @@ body {
 	font-family: Karla-italic;
 }
 
+.green {
+	color: green;
+}
+
 
 .stellina {
 	color: red;
@@ -212,6 +219,12 @@ body {
 }
 
 @media (max-width: 800px) {
+	
+
+	#about-dida {
+		display: block;
+	}
+	
 	
 	#home-sotto {
 		width: 90%;
