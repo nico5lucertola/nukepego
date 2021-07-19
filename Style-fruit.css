@@ -23,7 +23,7 @@ body {
 
 @font-face {
     font-family: Karla_regular;
-    src: url(Karla-Regular.ttf);
+    src: url(Karla-Regular.ttf); 
 }
 
 @font-face {
@@ -89,7 +89,7 @@ body {
 }
 
 .testo-gigante {
-	font-family: HappyTimes_italic;
+	font-family: Karla_Bold;
 	font-size: 2rem;
 	color: red;
 	line-height: 2.5rem;
@@ -177,14 +177,14 @@ body {
 }
 
 .career-text {
-	margin: 2.5rem 0 2rem 0;
-	font-family: HappyTimes_regular;
-	font-size: 1.8rem;
-	line-height: 2.2rem;
+	margin: 3.5rem 0 2rem 0;
+	font-family: Karla_regular;
+	font-size: 1.6rem;
+	line-height: 2rem;
 }
 
 .career-link {
-	font-family: HappyTimes_regular;
+	font-family: Karla_Bold;
 	font-size: 1.8rem;
 	line-height: 2.2rem;
 	color: black;
@@ -195,9 +195,19 @@ body {
 	color: red;
 }
 
+.career-link-small {
+	font-family: Karla_Bold;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+}
+
+.career-link-small:hover {
+	color: red;
+}
+
 .career-mail {
 	color: red;
-	font-family: HappyTimes_italic;
+	font-family: Karla_Bold;
 	cursor: pointer;
 }
 
