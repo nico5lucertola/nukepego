@@ -75,6 +75,19 @@ body {
 	margin-right: auto;
 }
 
+#home-header {
+	height: 97vh;
+}
+
+
+#home-footer {
+	text-align: center;
+}
+
+#home-footer-img {
+	width: 97vw;
+}
+
 .testo-gigante {
 	font-family: HappyTimes_italic;
 	font-size: 2rem;
@@ -254,6 +267,10 @@ body {
 	
 	#career-timeline {
 		width: 80%;
+	}
+
+	#home-footer-img {
+		content:url("blue_small_vertical.jpg");
 	}
 }
 

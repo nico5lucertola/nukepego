@@ -438,6 +438,10 @@ p {
 	#head-sotto-sx-testo {
 		width: 100%;
 	}
+
+	#home-footer-img {
+		width: 100vh;
+	}
 	
 	.testo-gigante {
 		font-size: 3rem;
